@@ -2,10 +2,18 @@
     /* Основные цвета */
     --default-color-text: #000000;
     --default-background-color:#fff;
+
+    --color-text-header-nav: #fff;
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url(../fonts/roboto_mono/RobotoMono-VariableFont_wght.ttf);
 }
 
 /* Основные настройки сайта */
 *{
     margin: 0;
     padding: 0;
+    font-family: RobotoMono;
 }

@@ -1,0 +1,49 @@
+/* Стили для страницы index.html */
+
+
+/* header */
+
+header{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: space-around;
+    align-items: center;
+    justify-items: center;
+    background-color: #f14a4a;
+}
+
+header h2{
+    margin-bottom: 10px;
+}
+
+header nav{
+}
+header nav a{
+    font-size: large;
+    color: var(--color-text-header-nav);
+}
+
+
+/* main */
+
+.up-content{
+    display: flex;
+}
+
+.up-content img{
+    width: 50vw;
+    height: 45vw;
+    object-fit:cover;
+}
+
+.card-preview{
+    width: 30vw;
+    height: 30vw;
+    margin: 5vw;
+    background-color: #a8f148;
+    border-radius: 18px;
+}
+.card-preview p{
+    margin: 25%;
+}
