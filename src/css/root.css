@@ -1,0 +1,11 @@
+:root{
+    /* Основные цвета */
+    --default-color-text: #000000;
+    --default-background-color:#fff;
+}
+
+/* Основные настройки сайта */
+*{
+    margin: 0;
+    padding: 0;
+}
